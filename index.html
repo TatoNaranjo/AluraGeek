@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>AluraFlix</title>
+</head>
+<body>
+    <header class="navs">
+        <nav class="navbar">
+            <div class="navbar-title">
+                <h1>AluraGeek</h1>
+            </div>
+            <div>
+                <button class="button" id="myBtn">Agregar Producto</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="principal-content">
+        <div class="principal-titles">
+            <div>
+                <div><h1>AluraGeek</h1></div>
+        <div class=""><h2>Bienvenido a tu página de confianza, en donde podrás encontrar distintos productos relacionados al mundo geek</h2></div>
+    </div>
+
+    <div class="modal" id="myModal">
+    <div class="modal-content">
+    <span class="close" >&times;</span>
+    <div>
+        <div><h2>Agregar producto</h2></div>
+        
+
+        <form autocomplete="off" name="addElementForm" data-form>
+            <fieldset class="form-label">
+            <label for="name" >Nombre del Producto</label>
+            <input type="text" name="product-name" placeholder="Escribe el Nombre del Producto aquí" class="form-input" required 
+            minlength="3">
+            <span class="mensaje-error"></span>
+        </fieldset>
+
+        <fieldset class="form-label">
+            <label for="category" >Categoría del Producto</label>
+            <input type="text" name="product-category" placeholder="Escribe La Categoría del Producto aquí" class="form-input" required 
+            minlength="3">
+            <span class="mensaje-error"></span>
+        </fieldset>
+
+        <fieldset class="form-label">
+            <label for="price">Precio (COP)</label>
+            <input type="text" name="product-price" placeholder="Ej: 90.000" class="form-input" required
+            minlength="3" maxlength="15" pattern="^\d+\.\d+$">
+            <span class="mensaje-error"></span>
+        </fieldset>
+
+        <fieldset class="form-label">
+            <label for="image" >URL De La Imagen</label>
+            <input type="text" name="product-image" placeholder="Escribe el URL de la imagen del producto aquí" class="form-input" required
+            minlength="10"
+            >
+            <span class="mensaje-error"></span>
+        </fieldset>
+
+        <button class="button">Agregar Producto</button>
+        </form>
+    </div>
+
+
+    </div>
+</div>
+
+    <section class= "product-container">
+        <h1>Nuestros Productos Principales</h1>
+
+        <div class = "products" id="products" data-productList>
+
+        </div>
+        
+    </section>
+    </main>
+
+    <footer class="navs">
+        <nav class="navbar nav-footer">
+            <div class="navbar-title">
+                <h1>AluraGeek</h1>
+            </div>
+            <div>
+                <h3>© 2024 - Hecho Por: TatoNaranjo</h3>
+            </div>
+        </nav>
+
+    </footer>
+
+    <script src="/js/main.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "imagen": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXBob25lfGVufDB8fDB8fHww",
+      "categoria": "Electronics",
+      "titulo": "Smartphone",
+      "precio": "1.000.000"
+    },
+    {
+      "id": "2",
+      "imagen": "https://store.nicalis.com/cdn/shop/products/MissingIssac_large.png?v=1678230416",
+      "categoria": "Clothing",
+      "titulo": "Geek T-shirt",
+      "precio": "25.000"
+    },
+    {
+      "id": "3",
+      "imagen": "https://toystnt.com/pictures/750_5613c8c9d8ccf5dfeed10f83809b1507.jpg",
+      "categoria": "Toys",
+      "titulo": "Robot Kit",
+      "precio": "50.000"
+    },
+    {
+      "id": "4",
+      "imagen": "https://assets.bosecreative.com/transform/157a12a3-8273-4ef3-8e84-99c18e964953/QCUHLE24_PDP_GALLERY_SF_Sandstone_WIRED_01_2400x1800?quality=100&io=width:400,height:300,transform:fit&io=width:400,height:300,transform:fit",
+      "categoria": "Electronics",
+      "titulo": "Wireless Headphones",
+      "precio": "150.000"
+    },
+    {
+      "id": "5",
+      "imagen": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1598823299i/42844155._SX120_.jpg",
+      "categoria": "Books",
+      "titulo": "The Hitchhiker's Guide to the Galaxy",
+      "precio": "35.000"
+    },
+    {
+      "id": "6",
+      "imagen": "https://media.kingston.com/kingston/product/ktc-product-card-usb-dtse9g3-tn.png",
+      "categoria": "Gadgets",
+      "titulo": "USB Flash Drive",
+      "precio": "20.000"
+    },
+    {
+      "id": "8",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_923840-MLU75786907327_042024-O.webp",
+      "categoria": "Toys",
+      "titulo": "Drone",
+      "precio": "300.000"
+    },
+    {
+      "id": "9",
+      "imagen": "https://resource.logitech.com/w_386,ar_1.0,c_limit,f_auto,q_auto,dpr_2.0/d_transparent.gif/content/dam/logitech/en/products/mice/m720/gallery/m720-gallery-1a.png?v=1",
+      "categoria": "Electronics",
+      "titulo": "Gaming Mouse",
+      "precio": "80.000"
+    },
+    {
+      "id": "11",
+      "titulo": "Hoodie My Chemical Romance",
+      "categoria": "Ropa",
+      "precio": "50.000",
+      "imagen": "https://m.media-amazon.com/images/I/61oqoyjYcVL._AC_SY550_.jpg"
+    }
+  ]
+}
